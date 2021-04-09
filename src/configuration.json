@@ -1,0 +1,17 @@
+{
+  "aws": {
+    "credentials": {
+      "accessKeyId": "XXXXXXXXXXXXXX",
+      "secretAccessKey": "XXXXXXXXXXXXX"
+    },
+    "s3": {
+      "bucket": "XXXXXXX",
+      "basePath": "staging",
+      "region": "ap-south-1",
+      "bucketBaseURLPath": "XXXXXXXX"
+    },
+    "sqs": {
+      "url": "XXXXXXX"
+    }
+  }
+}
