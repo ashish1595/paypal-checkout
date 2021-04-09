@@ -12,7 +12,7 @@ function validationRule(body: any) {
   function getCardType(cardNumber: string) {
     const re = new RegExp("^3[47]");
     if (cardNumber.match(re) != null)
-        return "";
+        return "AMEX";
     else
         return "";
 }
